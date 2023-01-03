@@ -1,0 +1,41 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  /* top: 0; */
+  position: fixed;
+  width: 100vw;
+  height: 50px;
+  height: auto;
+  background-color: bisque;
+  display: flex;
+  justify-content: center;
+  /* box-shadow: ; */
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+header li a {
+  text-decoration: none;
+}
+
+img {
+  width: 150px;
+  height: 30px;
+}
+
+.one {
+  width: 1264px;
+  height: 47px;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  background-color: blue;
+}

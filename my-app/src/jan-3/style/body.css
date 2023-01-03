@@ -1,0 +1,13 @@
+main {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  width: 1264px;
+  height: 100px;
+  background-color: aqua;
+  display: flex;
+}
