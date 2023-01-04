@@ -1,13 +1,15 @@
 import "../style/body.css";
-import Aside from "./subcomp/Aside";
+import LeftSide from "./subcomp/LeftSide";
 import BodyMain from "./subcomp/BodyMain";
+import RightSide from "./subcomp/RightSide";
 
 export default function Body() {
   return (
     <main>
       <div class="main">
-        <Aside />
+        <LeftSide />
         <BodyMain />
+        <RightSide />
       </div>
     </main>
   );

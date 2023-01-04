@@ -3,4 +3,6 @@ footer {
   height: 322px;
   background-color: black;
   margin-top: 1900px;
+  position: fixed;
+  bottom: 0;
 }

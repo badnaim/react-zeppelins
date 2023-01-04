@@ -1,6 +1,8 @@
-.bodyMain {
-  width: 1100px;
-  height: 2000px;
+.mainInf {
+  width: 800px;
+  height: 1940px;
   background-color: blueviolet;
   margin-left: 164px;
+  padding-top: 60px;
+  margin-bottom: 322px;
 }

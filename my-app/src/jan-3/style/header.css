@@ -35,3 +35,23 @@ img {
   display: flex;
   align-items: center;
 }
+
+.icon {
+  /* padding-right: 25px;
+  background: url("../../../public/search.png") no-repeat right;
+  background-size: 20px;
+  left: 0; */
+  width: 704px;
+  height: 32px;
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 3px;
+}
+
+.btn1 {
+  width: 60px;
+  height: 33px;
+}
+.btn2 {
+  width: 60px;
+  height: 33px;
+}

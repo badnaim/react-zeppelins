@@ -1,9 +1,9 @@
-import "../style/style.css";
+import "../style/header.css";
 
 export default function Header() {
   return (
     <header>
-      <div class="one">
+      <div className="one">
         <img src="./logo-stackoverflow.png"></img>
         <ul>
           <li>
@@ -16,6 +16,9 @@ export default function Header() {
             <a href="#">For teams</a>
           </li>
         </ul>
+        <input type="search" placeholder="Search..." className="icon"></input>
+        <button className="btn1">Log in</button>
+        <button className="btn1">Sign up</button>
       </div>
     </header>
   );
