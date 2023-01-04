@@ -1,6 +1,6 @@
 main {
   width: 100vw;
-  height: auto;
+  height: 100px;
   display: flex;
   justify-content: center;
 }
@@ -8,6 +8,6 @@ main {
 .main {
   width: 1264px;
   height: 100px;
-  background-color: aqua;
   display: flex;
+
 }
