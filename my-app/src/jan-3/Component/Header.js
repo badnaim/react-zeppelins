@@ -4,7 +4,9 @@ export default function Header() {
   return (
     <header>
       <div className="one">
-        <img src="./logo-stackoverflow.png"></img>
+        <div className="img1">
+          <img src="./logo-stackoverflow.png"></img>
+        </div>
         <ul>
           <li>
             <a href="#">About</a>
@@ -16,9 +18,12 @@ export default function Header() {
             <a href="#">For teams</a>
           </li>
         </ul>
-        <input type="search" placeholder="Search..." className="icon"></input>
+        <input
+          type="search"
+          placeholder="Search..."
+          className="searchInput"></input>
         <button className="btn1">Log in</button>
-        <button className="btn1">Sign up</button>
+        <button className="btn2">Sign up</button>
       </div>
     </header>
   );
