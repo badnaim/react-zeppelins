@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap");
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.one {
+  width: 1200px;
+  height: 81px;
+  margin-top: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+
+.description {
+  width: 1200px;
+  height: 431px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 138px;
+}
+
+#descOne {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 52px;
+  color: #d05270;
+  margin-bottom: 12px;
+}
+
+#descTwo {
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 52px;
+  color: #424242;
+  margin-bottom: 36px;
+}
+
+#descThree {
+  width: 631px;
+  height: 110px;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 18px;
+  color: #424242;
+  margin-bottom: 36px;
+}
+
+.threeButton {
+  width: 631px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.threeButton button {
+  width: 201px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: none;
+}
+
+#twitter {
+  background-color: #47acdf;
+  color: white;
+}
+
+#medium {
+  background-color: black;
+  color: white;
+}
+
+#linkedin {
+  background-color: #1275b1;
+  color: white;
+}
+
+#margin {
+  margin-bottom: 24px;
+}
