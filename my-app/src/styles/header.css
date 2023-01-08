@@ -22,12 +22,15 @@ header {
 }
 
 .navLinks {
+  padding-top: 10px;
+  height: 40px;
   display: flex;
   justify-content: space-around;
 }
 
 ul {
   display: flex;
+  align-items: center;
   list-style: none;
   gap: 40px;
   font-family: Montserrat;
@@ -100,5 +103,5 @@ ul {
 }
 
 #margin {
-  margin-bottom: 24px;
+  margin-bottom: 305px;
 }

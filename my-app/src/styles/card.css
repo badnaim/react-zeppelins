@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap");
+
+.card {
+  width: 590px;
+  height: 650px;
+  font-family: Montserrat;
+  margin-bottom: 75px;
+}
+
+div img {
+  width: 590px;
+  margin-bottom: 16.51px;
+}
+
+div h2 {
+  color: #D05270;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+}
+
+#click {
+  width: 116px;
+  color: #D05270;
+  border-bottom: 1px solid #D05270;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+#click:hover {
+  cursor: pointer;
+  color: #a43751;
+  border-bottom: 1px solid #a43751;
+}

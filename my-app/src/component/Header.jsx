@@ -2,6 +2,8 @@ import Twitter from "../icons/twitter";
 import Linkedin from "../icons/linkedin";
 import Medium from "../icons/medium";
 import ManSittingImg from "../icons/manSittingImg";
+import Sad1 from "../icons/sad1"
+import Sad2 from "../icons/sad2"
 import "../styles/header.css";
 
 export default function header() {
@@ -9,8 +11,8 @@ export default function header() {
     <header>
       <div className="one">
         <div className="logos">
-          <img src="./Leap.png"></img>
-          <img src="./HireMe.png"></img>
+          <Sad1 />
+          <Sad2 />
         </div>
         <div className="navLinks">
           <ul>
@@ -24,7 +26,7 @@ export default function header() {
           </ul>
         </div>
       </div>
-      <div className="description">
+      <div className="description" id="margin">
         <div>
           <div id="descOne">Blog Post</div>
           <div id="descTwo">I think so, this is it.</div>
@@ -50,7 +52,7 @@ export default function header() {
             </button>
           </div>
         </div>
-        <div id="margin">
+        <div>
           <ManSittingImg />
         </div>
       </div>
